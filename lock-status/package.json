@@ -1,0 +1,16 @@
+{
+  "name": "fraiche-lock",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "parcel *.html --no-autoinstall",
+    "build": "parcel build *.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.1"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3"
+  }
+}
