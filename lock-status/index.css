@@ -4,7 +4,7 @@
 }
 
 .panel {
-  background-color: lightgrey!important;
+  box-shadow: 1px 1px 12px lightgrey;
   padding: 20px!important;
   border-radius: 20px!important;
   margin: 20px;
