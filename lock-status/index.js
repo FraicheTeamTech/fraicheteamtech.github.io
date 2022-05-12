@@ -43,7 +43,7 @@ setInterval(() => {
       panel.className = 'panel';
       panel.setAttribute('data-lock-id', lock_id);
       panel.innerHTML = `
-        <h1>${lock_id}</h1>
+        <p class="staticrypt-title">${lock_id}</p>
         <p>Last health ping: <code data-lock-id="${lock_id}" data-ping-timestamp></code></p>
         <p>Current latch state: <code data-lock-id="${lock_id}" data-latch-state>OPENED</code></p>
         <p>
