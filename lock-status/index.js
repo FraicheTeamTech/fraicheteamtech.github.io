@@ -44,15 +44,15 @@ setInterval(() => {
       panel.setAttribute('data-lock-id', lock_id);
       panel.innerHTML = `
         <h1>LOCK ${lock_id}</h1>
-        <p>last health ping: <code data-lock-id="${lock_id}" data-ping-timestamp></code></p>
-        <p>current latch state: <code data-lock-id="${lock_id}" data-latch-state>OPENED</code></p>
+        <p>Last health ping: <code data-lock-id="${lock_id}" data-ping-timestamp></code></p>
+        <p>Current latch state: <code data-lock-id="${lock_id}" data-latch-state>OPENED</code></p>
         <p>
-            set lock state:
+            Set lock state:
             <button data-lock-id="${lock_id}" data-set-relay-state="LOCK">LOCK</button>
             <button data-lock-id="${lock_id}" data-set-relay-state="UNLOCK">UNLOCK</button>
         </p>
         <p>
-            run burn-in cycle: <button data-lock-id="${lock_id}" data-start-burn-in>START</button>
+            Run burn-in cycle: <button data-lock-id="${lock_id}" data-start-burn-in>START</button>
         </p>
       `;
 
